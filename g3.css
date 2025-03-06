@@ -1,0 +1,157 @@
+
+.work-sans {
+    font-family:"Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.text-grey{
+   color: grey;
+}
+.bglight{
+   background-color: bisque;
+   
+} 
+.btn-prm{
+   background-color: orange;
+   color: white;
+   padding:15px;
+   border-radius: 10px;
+   border-style: none;
+   margin:10px;
+   font-weight:600;
+   font-size:15px
+}
+ .display-flex{
+    display: flex;
+   } 
+
+ .navbar{
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1440px;
+   margin:0 auto;
+ }
+
+ .nav-items{
+   list-style: none;
+  }
+
+ .nav-link{
+   text-decoration: none;
+   font-weight: 500;
+   margin-right:40px;
+ }
+ .brand{
+   font-weight: bold;
+   font-size: 45px;
+   margin-left:40px ;
+ }
+.banner{
+   max-width: 1440px;
+   margin:0 auto;
+}
+.banner-content{
+   margin:0px auto;
+   max-width: 850px;
+   text-align: center;
+   margin-bottom: 30px;
+   
+}
+.banner-title{
+   font-weight: 700;
+   font-size: 4rem;
+}
+.img1{
+   max-width:100%;
+   
+}
+.teams{
+   align-items: center;
+}
+.team-img-container{
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:24;
+}
+ main{
+   max-width:1440px;
+   margin:0 auto;
+ }
+ main>section{
+   margin-top:130px;
+}
+.our-features{
+   padding-left:130px;
+   max-width:530px;}
+.feature-title{
+   font-size: 45px;
+}
+#ql{
+   font-weight:500;
+}
+#ql2{
+   color: orange;
+}
+
+@media screen and (max-width:576px){
+     .navbar,.nav-link,.teams{
+      flex-direction: column;
+     }
+     .team-img-container{
+      grid-template-columns: repeat(1,1fr) ;
+     
+     }
+     .our-features{
+      margin-left: 20px;
+     } 
+     .fact-container,.sponsor-companies{
+      justify-items: center;
+      flex-direction: column;
+      gap: 50px;
+   }
+}
+
+@media screen and (min-width:576px)and (max-width:992px) {
+      .teams{
+         flex-direction: column;
+      }
+      .our-features{
+         margin: 50px auto;
+      }
+      
+}
+
+.fact-container{
+   display:flex;
+   margin:35px;
+   justify-content: space-around;
+}
+.fact{
+  border-radius: 0px;
+  border-color: orange;
+  border-style:solid;
+  padding:7%;
+  justify-items: center;
+}
+
+.fact-icon,.fact-num,.fact-name{
+   align-content: center;
+   text-align: center;
+}
+
+
+.sponsor-info{
+   max-width: 540px;
+   margin:50px auto;
+   text-align:center;}
+
+.sponsor-companies{
+   display:flex;
+   justify-content: space-around;
+   margin-bottom: 50px;
+   }
+
+.sp-img{
+   filter: grayscale(100%);
+}

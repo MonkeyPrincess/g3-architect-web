@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width:576px){
-     .navbar,.nav-link,.teams{
+     .navbar,.nav-link,.teams,.feat{
       flex-direction: column;
      }
      .team-img-container{
@@ -154,4 +154,46 @@
 
 .sp-img{
    filter: grayscale(100%);
+}
+
+
+#feature-section-title{
+   border-left: 5px solid orange;
+   padding-left:20px;
+}
+.feature-card{
+   padding:30px;
+   margin-bottom:20px;
+   box-shadow:0 4px 30px 0px rgba(0,0,0,0.06);
+}
+
+.feature-card,.feat-title{
+   font-weight:600;
+   font-size:1.25rem;
+   margin-top:0px;
+   margin-bottom: 0px;;
+}
+
+.feat{
+   gap:100px;
+   display:flex;
+}
+#experience-badge{
+   padding: 45px 42px;
+   font-size:1.5rem;
+   font-weight:500;
+   margin-left:-90px;
+   margin-top: -100px;
+   background-color: orange;
+   border-style: none;
+   border-radius:10px;
+   color:white;
+}
+ 
+#experience-yr{
+   font-size:4rem;
+   font-weight:700;
+}
+.feat-arch img{
+  width:100%;
 }
